@@ -6,7 +6,7 @@ import Login from './components/Login.js';
 const RouterComponent = () => {
   return (
     <Router>
-      <Scene key="login" component={Login} title="Login"/>
+      <Scene hideNavBar="true" key="login" component={Login} title="Login"/>
     </Router>
   );
 };

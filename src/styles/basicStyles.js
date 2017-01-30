@@ -1,5 +1,5 @@
 const someColor = '#F5FCFF';
-const someGray = '#333';
+const gray = '#333';
 export const basicStyles = {
   container: {
     flex: 1,
@@ -14,10 +14,15 @@ export const basicStyles = {
   },
   instructions: {
     textAlign: 'center',
-    color: someGray,
+    color: gray,
     marginBottom: 5,
   },
   content: {
     paddingTop: 65
+  },
+  backgroundImage: {
+    flex: 1,
+    width: null,
+    height: null
   }
 };
